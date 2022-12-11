@@ -1,11 +1,9 @@
 let array = [];
 for (let i1 = 20; i1 <= 30; i1 += 0.5) {
     array.push(i1);
-    // console.log(i1);
 }
-
 console.log(array);
-
+// Аналогичный случай с выводом в консоль 
 // ------------------------------------------------
 
 const dollar = 27;
