@@ -1,9 +1,9 @@
-let array = [];
+let string = ``;
 for (let i1 = 20; i1 <= 30; i1 += 0.5) {
-    array.push(i1);
+    string = string + ` ${i1}`;
 }
-console.log(array);
-// Аналогичный случай с выводом в консоль 
+console.log(string);
+
 // ------------------------------------------------
 
 const dollar = 27;
@@ -14,7 +14,7 @@ for (let i2 = 10; i2 <= 100; i2 += 10) {
 // ------------------------------------------------
 const number = +prompt("Enter an integer");
 for (let i3 = 1; i3 <= 100; i3++) {
-    if (i3 * i3 < number) {
+    if (i3 * i3 <= number) {
         console.log(i3);
     }
 }
@@ -44,9 +44,9 @@ for(let i5 =1; i5<=number3; i5++){
         console.log(`Yes, if the exponent  = ${i5}`);
         break;
     } 
-    // else {
-    //     console.log(`No, if the exponent = ${i5}`);
-    // }
+    else {
+        console.log(`No, if the exponent = ${i5}`);
+    }
 }
 
 
